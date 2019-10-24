@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ngo-front/static/css/main.c5bdcc5d.chunk.css",
+    "main.js": "/ngo-front/static/js/main.788924b8.chunk.js",
+    "main.js.map": "/ngo-front/static/js/main.788924b8.chunk.js.map",
+    "runtime-main.js": "/ngo-front/static/js/runtime-main.79c30d1f.js",
+    "runtime-main.js.map": "/ngo-front/static/js/runtime-main.79c30d1f.js.map",
+    "static/css/2.802837ff.chunk.css": "/ngo-front/static/css/2.802837ff.chunk.css",
+    "static/js/2.a8be0fee.chunk.js": "/ngo-front/static/js/2.a8be0fee.chunk.js",
+    "static/js/2.a8be0fee.chunk.js.map": "/ngo-front/static/js/2.a8be0fee.chunk.js.map",
+    "index.html": "/ngo-front/index.html",
+    "precache-manifest.1e23ee1e1ae04d306dc95e78963891c9.js": "/ngo-front/precache-manifest.1e23ee1e1ae04d306dc95e78963891c9.js",
+    "service-worker.js": "/ngo-front/service-worker.js",
+    "static/css/2.802837ff.chunk.css.map": "/ngo-front/static/css/2.802837ff.chunk.css.map",
+    "static/css/main.c5bdcc5d.chunk.css.map": "/ngo-front/static/css/main.c5bdcc5d.chunk.css.map",
+    "static/media/Header.module.css": "/ngo-front/static/media/header-theme-1.ec057ae5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79c30d1f.js",
+    "static/css/2.802837ff.chunk.css",
+    "static/js/2.a8be0fee.chunk.js",
+    "static/css/main.c5bdcc5d.chunk.css",
+    "static/js/main.788924b8.chunk.js"
+  ]
+}
