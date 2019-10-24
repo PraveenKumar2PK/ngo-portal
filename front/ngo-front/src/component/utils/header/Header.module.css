@@ -1,7 +1,7 @@
 .header {
     background: url(../../../asserts/images/header-theme-1.jpg) no-repeat;
     background-size: cover;
-    height: 450px;
+    height: 3   50px;
     padding: 60px 80px;
     position: relative;
     border-bottom: 10px solid #076599;
@@ -20,4 +20,130 @@
 .headerTitle, .headerDescription {
     color: #ff9795;
     text-shadow: 0px 3px 2px rgba(62,62,62,1);
+}
+
+.navbarCollapse {
+    display: block;
+    background-color: rgba(0,0,0,0.5);
+    flex-basis: 100%;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.navbarHide {
+    display: none;
+}
+
+.navButtonTab {
+    position: fixed;
+    width: 100%;
+    top: 5px;
+    right: 10px;
+    width: 200px;
+    z-index: 1000;
+}
+
+.collapse {
+    display: none;
+}
+
+.navbarToggler {
+    background: rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 0;
+    color: white;
+    display: block;
+    padding: 0.6rem 1rem;
+    margin-left: auto;
+    margin-right: 0;
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.mainNavUl {
+    flex-flow: column;
+    width: 100%;
+    display: flexbox;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navItem {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+button {
+    transition: all 0.3s ease;
+    text-transform: none;
+    overflow: visible;
+    cursor: pointer;
+    border: none;
+    touch-action: manipulation;
+}
+
+.navLink {
+    color: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+    padding: 15px 20px;
+}
+
+.activeTab {
+    color: #40a9ff
+}
+
+@media (min-width: 768px) {
+    .navbarCollapse {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        background-color: rgba(0,0,0,0.5);
+        -ms-flex-align: center;
+        align-items: center;
+        display: flex;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: auto;
+        top: auto;
+        padding: 0;
+        width: 100%;
+    }
+    .navButtonTab{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: auto;
+        top: auto;
+        padding: 0;
+        width: 100%;
+    }
+    .navbarToggler {
+        display: none;
+    }
+    .navbarHide {
+        display: block;
+        background-color: rgba(0,0,0,0.5);
+        flex-basis: 100%;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .mainNavUl {
+        flex-flow: row;
+        width: 100%;
+        display: flexbox;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
 }
