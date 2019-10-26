@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ngo-front/front/ngo-front/static/css/main.3de439d1.chunk.css",
-    "main.js": "/ngo-front/front/ngo-front/static/js/main.40794087.chunk.js",
-    "main.js.map": "/ngo-front/front/ngo-front/static/js/main.40794087.chunk.js.map",
-    "runtime-main.js": "/ngo-front/front/ngo-front/static/js/runtime-main.82c7947f.js",
-    "runtime-main.js.map": "/ngo-front/front/ngo-front/static/js/runtime-main.82c7947f.js.map",
-    "static/css/2.802837ff.chunk.css": "/ngo-front/front/ngo-front/static/css/2.802837ff.chunk.css",
-    "static/js/2.3ea15ecc.chunk.js": "/ngo-front/front/ngo-front/static/js/2.3ea15ecc.chunk.js",
-    "static/js/2.3ea15ecc.chunk.js.map": "/ngo-front/front/ngo-front/static/js/2.3ea15ecc.chunk.js.map",
-    "index.html": "/ngo-front/front/ngo-front/index.html",
-    "precache-manifest.c1c6ce40cfed8f9e3b9d0b404b8825b7.js": "/ngo-front/front/ngo-front/precache-manifest.c1c6ce40cfed8f9e3b9d0b404b8825b7.js",
-    "service-worker.js": "/ngo-front/front/ngo-front/service-worker.js",
-    "static/css/2.802837ff.chunk.css.map": "/ngo-front/front/ngo-front/static/css/2.802837ff.chunk.css.map",
-    "static/css/main.3de439d1.chunk.css.map": "/ngo-front/front/ngo-front/static/css/main.3de439d1.chunk.css.map",
-    "static/media/Header.module.css": "/ngo-front/front/ngo-front/static/media/header-theme-1.ec057ae5.jpg"
+    "main.css": "/ngo-portal/static/css/main.2939da04.chunk.css",
+    "main.js": "/ngo-portal/static/js/main.0b95aae7.chunk.js",
+    "main.js.map": "/ngo-portal/static/js/main.0b95aae7.chunk.js.map",
+    "runtime-main.js": "/ngo-portal/static/js/runtime-main.d3ed815b.js",
+    "runtime-main.js.map": "/ngo-portal/static/js/runtime-main.d3ed815b.js.map",
+    "static/css/2.802837ff.chunk.css": "/ngo-portal/static/css/2.802837ff.chunk.css",
+    "static/js/2.868c70a4.chunk.js": "/ngo-portal/static/js/2.868c70a4.chunk.js",
+    "static/js/2.868c70a4.chunk.js.map": "/ngo-portal/static/js/2.868c70a4.chunk.js.map",
+    "index.html": "/ngo-portal/index.html",
+    "precache-manifest.b6c7bde87403ebf7bf878656c39e7b79.js": "/ngo-portal/precache-manifest.b6c7bde87403ebf7bf878656c39e7b79.js",
+    "service-worker.js": "/ngo-portal/service-worker.js",
+    "static/css/2.802837ff.chunk.css.map": "/ngo-portal/static/css/2.802837ff.chunk.css.map",
+    "static/css/main.2939da04.chunk.css.map": "/ngo-portal/static/css/main.2939da04.chunk.css.map",
+    "static/media/Header.module.css": "/ngo-portal/static/media/header-theme-1.ec057ae5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.82c7947f.js",
+    "static/js/runtime-main.d3ed815b.js",
     "static/css/2.802837ff.chunk.css",
-    "static/js/2.3ea15ecc.chunk.js",
-    "static/css/main.3de439d1.chunk.css",
-    "static/js/main.40794087.chunk.js"
+    "static/js/2.868c70a4.chunk.js",
+    "static/css/main.2939da04.chunk.css",
+    "static/js/main.0b95aae7.chunk.js"
   ]
 }
