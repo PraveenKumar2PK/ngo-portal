@@ -1,8 +1,18 @@
+@font-face {
+    font-family: "Niagara Engraved";
+    src: url("../../../fonts/NiagaraEngraved/e5b38fc8a405b9de2da31804f25b66af.eot"); /* IE9*/
+    src: url("../../../fonts/NiagaraEngraved/e5b38fc8a405b9de2da31804f25b66af.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../../../fonts/NiagaraEngraved/e5b38fc8a405b9de2da31804f25b66af.woff2") format("woff2"), /* chrome、firefox */
+    url("../../../fonts/NiagaraEngraved/e5b38fc8a405b9de2da31804f25b66af.woff") format("woff"), /* chrome、firefox */
+    url("../../../fonts/NiagaraEngraved/e5b38fc8a405b9de2da31804f25b66af.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../../../fonts/NiagaraEngraved/e5b38fc8a405b9de2da31804f25b66af.svg#Niagara Engraved") format("svg"); /* iOS 4.1- */
+}
+
 .header {
     background: url(../../../asserts/images/header-theme-1.jpg) no-repeat;
     background-size: cover;
-    height: 3   50px;
-    padding: 60px 80px;
+    height: 450px;
+    padding: 120px 80px;
     position: relative;
     border-bottom: 10px solid #076599;
     background-color: #e8d9d9;
@@ -13,11 +23,17 @@
 }
 
 .headerTitle {
-    font-size: 3.2rem;
-    text-transform: uppercase;
+    font-size: 5.3rem;
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+    font-family:"Niagara Engraved" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-.headerTitle, .headerDescription {
+.headerDescription {
     color: #ff9795;
     text-shadow: 0px 3px 2px rgba(62,62,62,1);
 }

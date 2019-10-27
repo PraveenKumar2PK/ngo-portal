@@ -1,7 +1,8 @@
 {
   "name": "ngo-front",
-  "homepage": "http://PraveenKumar2PK.github.io/ngo-front",
+  "homepage": "http://PraveenKumar2PK.github.io/ngo-portal",
   "version": "0.1.0",
+  "main":"index.js",
   "private": true,
   "dependencies": {
     "@babel/core": "7.6.0",

@@ -30,7 +30,7 @@ class HomeComponent extends React.Component {
     render() {
         return (
             <Layout className="layout">
-                <Header title="Vallinam Foundation" description="NGO Organisation" onClickTab={this.onClickTabHandler} currentTab={this.state.currentTab}>
+                <Header title="Vallinam foundation" description="NGO Organisation" onClickTab={this.onClickTabHandler} currentTab={this.state.currentTab}>
                 </Header>
                 {this.content()}
             </Layout>

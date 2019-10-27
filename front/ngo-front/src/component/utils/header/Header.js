@@ -20,6 +20,7 @@ class Header extends React.Component {
             return {buttonMenuOpen:!prevState.buttonMenuOpen}
         })
     }
+    
     render() {
         var { currentTab } = this.props;
         return (
