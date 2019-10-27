@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ngo-portal/static/css/main.5083da18.chunk.css",
-    "main.js": "/ngo-portal/static/js/main.ad395c98.chunk.js",
-    "main.js.map": "/ngo-portal/static/js/main.ad395c98.chunk.js.map",
+    "main.css": "/ngo-portal/static/css/main.20167c37.chunk.css",
+    "main.js": "/ngo-portal/static/js/main.a84b2119.chunk.js",
+    "main.js.map": "/ngo-portal/static/js/main.a84b2119.chunk.js.map",
     "runtime-main.js": "/ngo-portal/static/js/runtime-main.d3ed815b.js",
     "runtime-main.js.map": "/ngo-portal/static/js/runtime-main.d3ed815b.js.map",
     "static/css/2.802837ff.chunk.css": "/ngo-portal/static/css/2.802837ff.chunk.css",
-    "static/js/2.314340f3.chunk.js": "/ngo-portal/static/js/2.314340f3.chunk.js",
-    "static/js/2.314340f3.chunk.js.map": "/ngo-portal/static/js/2.314340f3.chunk.js.map",
+    "static/js/2.4f4b27a6.chunk.js": "/ngo-portal/static/js/2.4f4b27a6.chunk.js",
+    "static/js/2.4f4b27a6.chunk.js.map": "/ngo-portal/static/js/2.4f4b27a6.chunk.js.map",
     "index.html": "/ngo-portal/index.html",
-    "precache-manifest.0e01c3f07db7a4e60aee43e52643cb0c.js": "/ngo-portal/precache-manifest.0e01c3f07db7a4e60aee43e52643cb0c.js",
+    "precache-manifest.d13585f3d449ac3c8c01b9e6b6551ca2.js": "/ngo-portal/precache-manifest.d13585f3d449ac3c8c01b9e6b6551ca2.js",
     "service-worker.js": "/ngo-portal/service-worker.js",
     "static/css/2.802837ff.chunk.css.map": "/ngo-portal/static/css/2.802837ff.chunk.css.map",
-    "static/css/main.5083da18.chunk.css.map": "/ngo-portal/static/css/main.5083da18.chunk.css.map",
+    "static/css/main.20167c37.chunk.css.map": "/ngo-portal/static/css/main.20167c37.chunk.css.map",
     "static/media/Header.module.css": "/ngo-portal/static/media/header-theme-1.2466ed32.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d3ed815b.js",
     "static/css/2.802837ff.chunk.css",
-    "static/js/2.314340f3.chunk.js",
-    "static/css/main.5083da18.chunk.css",
-    "static/js/main.ad395c98.chunk.js"
+    "static/js/2.4f4b27a6.chunk.js",
+    "static/css/main.20167c37.chunk.css",
+    "static/js/main.a84b2119.chunk.js"
   ]
 }
