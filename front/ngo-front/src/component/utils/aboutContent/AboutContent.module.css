@@ -14,29 +14,8 @@
     font-size: 1rem;
 }
 
-.gallery {
-    padding-top: 60px;
-    padding-bottom: 35px;
-    margin: 0 auto;
-}
-
 @media (min-width: 576px) {
     .mainContent {
-        padding: 75px 50px 70px;
-    }
-    .gallery {
-        max-width: 500px;
-    }
-}
-
-@media (min-width: 768px) {
-    .gallery {
-        max-width: 760px;
-    }
-}
-
-@media (min-width: 992px) {
-    .gallery {
-        max-width: none;
+        padding: 50px 50px 70px;
     }
 }

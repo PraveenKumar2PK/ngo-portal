@@ -1,41 +1,91 @@
+.profileImage {
+    width: 230px;
+    height: 180px;
+    background-size: 230px 178px;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    margin: 20px 0;
+}
+
+.profileCharacterImage {
+    font-size: 78px;
+    color: #fdfdfd;
+    text-align: center;
+    line-height: 150px;
+    margin: 20px 0;
+    background-color: #52b3e9;
+}
+
+.profile {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ID102 {
+    background-image: url('../../../asserts/images/profileImages/ID102.jpg');
+}
+
+.profileCaption {
+    font-size: 1.4rem;
+}
+
+.profileList {
+    display: inline-block;
+}
+
 .mainContent {
-    padding: 35px 30px;
+    padding: 50px 50px 70px;
 }
 
 .mainTitle {
-    color: #6C6C6C;
-    margin-bottom: 1.2rem;
-    font-size: 2rem;
-    line-height: 1.4;
+    font-size: 1.4rem;
 }
 
-.mainPara {
-    font-size: 1rem;
+@media (min-width: 376px) {
+    .mainContentWidth {
+        width: 445px;
+    }
 }
 
-.gallery {
-    padding-top: 60px;
-    padding-bottom: 35px;
-    margin: 0 auto;
+@media (min-width: 480px) {
+    .mainContentWidth {
+        width: 520px;
+    }
 }
 
 @media (min-width: 576px) {
-    .mainContent {
-        padding: 75px 50px 70px;
-    }
-    .gallery {
-        max-width: 500px;
+    .mainContentWidth {
+        width: 660px;
     }
 }
 
-@media (min-width: 768px) {
-    .gallery {
-        max-width: 760px;
+@media (min-width: 715px) {
+    .mainContentWidth {
+        width: 755px;
     }
 }
 
-@media (min-width: 992px) {
-    .gallery {
-        max-width: none;
+@media (min-width: 848px) {
+    .mainContentWidth {
+        width: 888px;
+    }
+}
+
+@media (min-width: 1015px) {
+    .mainContentWidth {
+        width: 1055px;
+    }
+}
+
+@media (min-width: 1160px) {
+    .mainContentWidth {
+        width: 1200px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .mainContentWidth {
+        width: 1340px;
     }
 }
