@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ngo-portal/precache-manifest.d13585f3d449ac3c8c01b9e6b6551ca2.js"
+  "/ngo-portal/precache-manifest.ac564722d183d078e3a9868521c5ed23.js"
 );
 
 self.addEventListener('message', (event) => {
