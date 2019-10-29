@@ -24,10 +24,10 @@ class Header extends React.Component {
     render() {
         var { currentTab } = this.props;
         return (
-            <div style={this.props.style ? {...this.props.style} : null} className={styles.header}>
-                
-                <h1 className={styles.headerTitle}>{this.props.title}</h1>
-                <p className={styles.headerDescription}>{this.props.description}</p>
+            <div style={this.props.style ? {...this.props.style} : null} className={classes([styles.header,styles.headerPadding])}>
+                <h1 className={styles.headerTitle}>
+                    <span className={styles.headerSpan}>{this.props.title}</span>
+                </h1>
                 <div className={styles.navButtonTab}>
                     <button className={styles.navbarToggler} onClick={this.onClickMenuButtonHandler}>
                         <Icon type="menu"></Icon>

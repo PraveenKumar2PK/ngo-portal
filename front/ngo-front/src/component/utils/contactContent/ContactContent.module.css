@@ -13,29 +13,62 @@
     font-size: 1rem;
 }
 
-.gallery {
-    padding-top: 60px;
-    padding-bottom: 35px;
-    margin: 0 auto;
+.formGroup {
+    margin-bottom: 1rem;
 }
 
-@media (min-width: 576px) {
+.formControl {
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    border-radius: 0;
+    font-size: 1.2rem;
+    padding: .75rem .75rem;
+}
+
+.formInput {
+    width: 90%;
+}
+
+.formButton {
+    color: white;
+    background-color: #186e9d;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 160px;
+}
+
+.parentForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.formStyle {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.content {
+    font-size: 1rem;
+}
+
+.textClass{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (min-width: 1015px) {
     .mainContent {
         padding: 75px 50px 70px;
     }
-    .gallery {
-        max-width: 500px;
-    }
-}
 
-@media (min-width: 768px) {
-    .gallery {
-        max-width: 760px;
+    .formInput {
+        width: 60%;
     }
-}
 
-@media (min-width: 992px) {
-    .gallery {
-        max-width: none;
+    .parentForm {
+        display: flex;
+        flex-direction: row;
     }
 }

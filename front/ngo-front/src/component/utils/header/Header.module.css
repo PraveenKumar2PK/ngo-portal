@@ -12,30 +12,30 @@
     background: url(../../../asserts/images/header-theme-1.jpg) no-repeat;
     background-size: cover;
     height: 450px;
-    padding: 120px 80px;
     position: relative;
     border-bottom: 10px solid #076599;
     background-color: #e8d9d9;
 }
 
-.headerDescription {
-    font-size: 1.4rem;
+.headerSpan {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.headerPadding {
+    padding: 80px 40px;
 }
 
 .headerTitle {
-    font-size: 5.3rem;
+    justify-content: space-around;
+    display: flex;
+    font-size: 6rem;
     letter-spacing: 0.1rem;
-    color: #ffffff;
+    color: #ff0266;
     font-family:"Niagara Engraved" !important;
     font-style:normal;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
-}
-
-.headerDescription {
-    color: #ff9795;
-    text-shadow: 0px 3px 2px rgba(62,62,62,1);
 }
 
 .navbarCollapse {
@@ -161,5 +161,8 @@ button {
         padding-left: 0;
         margin-bottom: 0;
         list-style: none;
+    }
+    .headerPadding {
+        padding: 120px 80px;
     }
 }

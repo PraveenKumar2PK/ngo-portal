@@ -1,6 +1,7 @@
 import React from 'react';
 import * as styles from './ContactContent.module.css';
 import './ContactContent.module.css';
+import classes from '../functions/classes';
 
 class ContactContent extends React.Component {
     render() {
@@ -9,16 +10,36 @@ class ContactContent extends React.Component {
             <div style={this.props.style ? {...this.props.style} : null} className={styles.mainContent}>
                 <div>
                     <header>
-                        <h2 className={styles.mainTitle}>Welcome to NGO Contact</h2>
+                        <h2 className={styles.mainTitle}>Contact Us</h2>
                     </header>
-                    <p className={styles.mainPara   }>
-                        DEFINITION OF NGOs. A non-governmental organization (NGO) is any non-profit,
-                        voluntary citizens' group which is organized on a local, national or international level.
-                        Some are organized around specific issues, such as human rights, environment or health.
-                    </p>
-                </div>
-                <div>
-
+                    <div className={styles.parentForm}>
+                        <form className={styles.formStyle}>
+                            <div class="form-group" className={styles.formGroup}>
+                                <input type="text" id="contact_name" name="contact_name" className={classes([styles.formControl,styles.formInput])} placeholder="Name" required=""/>
+                            </div>
+                            <div class="form-group" className={styles.formGroup}>
+                                <input type="email" id="contact_email" name="contact_email" className={classes([styles.formControl,styles.formInput])} placeholder="Email" required=""/>
+                            </div>
+                            <div class="form-group" className={styles.formGroup}>
+                                <textarea id="contact_message" name="contact_message" className={classes([styles.formControl,styles.formInput])} rows="8" placeholder="Message" required=""></textarea>
+                            </div>
+                            <button disabled className="formButton">Submit</button>
+                        </form>
+                        <div className={classes([styles.formStyle,styles.mainTitle])}>
+                            <header>
+                                <h2>Mailing Address:</h2>
+                                <div>
+                                    <p className={styles.textClass}>
+                                        S3-Block - 1 Somasundaram Street, Medavakkam,
+                                        <br/>
+                                        Chennai-600100
+                                    </p>
+                                </div>
+                                <h2>Email:</h2>
+                                <h3 className={styles.textClass} title={'erodepraveen94@gmail.com'}>erodepraveen94@gmail.com</h3>
+                            </header>
+                        </div>
+                    </div>
                 </div>
             </div>
         );
