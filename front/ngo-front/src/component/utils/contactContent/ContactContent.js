@@ -30,13 +30,19 @@ class ContactContent extends React.Component {
                                 <h2>Mailing Address:</h2>
                                 <div>
                                     <p className={styles.textClass}>
-                                        S3-Block - 1 Somasundaram Street, Medavakkam,
+                                        Vallinam foundation,
                                         <br/>
-                                        Chennai-600100
+                                        5/25, O.jedarpalayam post,
+                                        <br/>
+                                        Rasipuram, Namakkal – 637406.
+                                        <br/>
+                                        Phn.No:- 7845181074, 7418853538.
                                     </p>
                                 </div>
                                 <h2>Email:</h2>
-                                <h3 className={styles.textClass} title={'erodepraveen94@gmail.com'}>erodepraveen94@gmail.com</h3>
+                                <p className={styles.textClass} title={'vallinamfondation@gmail.com'}>vallinamfondation@gmail.com</p>
+                                <h2>Website:</h2>
+                                <p className={styles.textClass} title={'www.vallinamfoundation.com'}>www.vallinamfoundation.com</p>
                             </header>
                         </div>
                     </div>

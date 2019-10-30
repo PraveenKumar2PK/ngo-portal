@@ -24,29 +24,33 @@ class Header extends React.Component {
     render() {
         var { currentTab } = this.props;
         return (
-            <div style={this.props.style ? {...this.props.style} : null} className={classes([styles.header,styles.headerPadding])}>
-                <h1 className={styles.headerTitle}>
-                    <span className={styles.headerSpan}>{this.props.title}</span>
-                </h1>
-                <div className={styles.navButtonTab}>
-                    <button className={styles.navbarToggler} onClick={this.onClickMenuButtonHandler}>
-                        <Icon type="menu"></Icon>
-                    </button>
-                    <div className={this.state.buttonMenuOpen ? styles.navbarCollapse : styles.navbarHide}>
-                        <ul className={styles.mainNavUl}>
-                            <li className={styles.navItem}>
-                                <div className={classes([styles.navLink,currentTab === 1 ? styles.activeTab : ''])} value={1} onClick={this.onClickTabHandler} href="/home">Home</div>
-                            </li>
-                            <li className={styles.navItem}>
-                                <div className={classes([styles.navLink,currentTab === 2 ? styles.activeTab : ''])} value={2} onClick={this.onClickTabHandler} href="/home">About</div>
-                            </li>
-                            <li className={styles.navItem}>
-                                <div className={classes([styles.navLink,currentTab === 3 ? styles.activeTab : ''])} value={3} onClick={this.onClickTabHandler} href="/home">Our Team</div>
-                            </li>
-                            <li className={styles.navItem}>
-                                <div className={classes([styles.navLink,currentTab === 4 ? styles.activeTab : ''])} value={4} onClick={this.onClickTabHandler} href="/home">Contact Us</div>
-                            </li>
-                        </ul>
+            <div>
+                <div>
+                    <h1 className={styles.headerTitle}>
+                        <span>{this.props.title}</span>
+                    </h1>
+                </div>
+                <div style={this.props.style ? {...this.props.style} : null} className={classes([styles.header,styles.headerPadding])}>
+                    <div className={styles.navButtonTab}>
+                        <button className={styles.navbarToggler} onClick={this.onClickMenuButtonHandler}>
+                            <Icon type="menu"></Icon>
+                        </button>
+                        <div className={this.state.buttonMenuOpen ? styles.navbarCollapse : styles.navbarHide}>
+                            <ul className={styles.mainNavUl}>
+                                <li className={styles.navItem}>
+                                    <div className={classes([styles.navLink,currentTab === 1 ? styles.activeTab : ''])} value={1} onClick={this.onClickTabHandler} href="/home">Home</div>
+                                </li>
+                                <li className={styles.navItem}>
+                                    <div className={classes([styles.navLink,currentTab === 2 ? styles.activeTab : ''])} value={2} onClick={this.onClickTabHandler} href="/home">About</div>
+                                </li>
+                                <li className={styles.navItem}>
+                                    <div className={classes([styles.navLink,currentTab === 3 ? styles.activeTab : ''])} value={3} onClick={this.onClickTabHandler} href="/home">Our Team</div>
+                                </li>
+                                <li className={styles.navItem}>
+                                    <div className={classes([styles.navLink,currentTab === 4 ? styles.activeTab : ''])} value={4} onClick={this.onClickTabHandler} href="/home">Contact Us</div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
