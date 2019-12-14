@@ -6,7 +6,7 @@ import Registartion from './utils/registration/Registration';
 class RouterComponent extends React.Component {
     render() {
         return (
-            <BrowserRouter>
+            <BrowserRouter basename="/ngo-portal">
                 <Switch>
                     <Route path='/home'>
                         <HomeComponent/>

@@ -29,7 +29,7 @@ class HomeComponent extends React.Component {
         this.setState({currentTab: tabId});
     }
     onClickRegistrationHandler = () => {
-        window.open(window.location.origin+"/registration", "_blank")
+        window.open(window.location.origin+"/ngo-portal/registration", "_blank")
     }
     render() {
         return (
