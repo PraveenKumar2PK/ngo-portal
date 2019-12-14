@@ -1,11 +1,12 @@
 import React from 'react';
-import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import HomeComponent from './page/HomeComponent';
+import Registartion from './utils/registration/Registration';
 
 class RouterComponent extends React.Component {
     render() {
         return (
-            <HashRouter>
+            <BrowserRouter>
                 <Switch>
                     <Route path='/home'>
                         <HomeComponent/>
@@ -13,11 +14,14 @@ class RouterComponent extends React.Component {
                     <Route path='/admin'>
                         <Admin/>
                     </Route>
+                    <Route path='/registration'>
+                        <Registartion/>
+                    </Route>
                     <Route path='/'>
                         <Redirect to={{pathname:'/home'}}/>
                     </Route>
                 </Switch>
-            </HashRouter>
+            </BrowserRouter>
         );
     }
 }

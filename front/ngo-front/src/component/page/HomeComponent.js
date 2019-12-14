@@ -4,6 +4,7 @@ import HomeContent from '../utils/homeContent/HomeContent';
 import TeamContent from '../utils/teamContent/TeamContent';
 import AboutContent from '../utils/aboutContent/AboutContent';
 import ContactContent from '../utils/contactContent/ContactContent';
+import FloatingButton from '../utils/component/FloatingButton';
 import { Layout } from 'antd';
 
 class HomeComponent extends React.Component {   
@@ -27,11 +28,15 @@ class HomeComponent extends React.Component {
     onClickTabHandler = (tabId) => {
         this.setState({currentTab: tabId});
     }
+    onClickRegistrationHandler = () => {
+        window.open(window.location.origin+"/registration", "_blank")
+    }
     render() {
         return (
             <Layout className="layout">
                 <Header title="Vallinam foundation" onClickTab={this.onClickTabHandler} currentTab={this.state.currentTab}>
                 </Header>
+                <FloatingButton type="primary" size="large" label="Register Now !" onClickHandler={this.onClickRegistrationHandler}/>
                 {this.content()}
             </Layout>
         );

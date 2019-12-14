@@ -1,0 +1,6 @@
+.float {
+    position: fixed !important;
+    bottom: 40px;
+    right: 40px;
+    box-shadow: 3px 3px 3px #999 !important;
+}

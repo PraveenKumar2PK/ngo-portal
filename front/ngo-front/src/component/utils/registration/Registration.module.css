@@ -1,0 +1,10 @@
+.headerDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.mainDiv {
+    border: 1px solid black;
+    width: 54%;
+    margin: 10px auto;
+}
