@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/ngo-portal/static/css/main.b53c2247.chunk.css",
-    "main.js": "/ngo-portal/static/js/main.5d7d5982.chunk.js",
-    "main.js.map": "/ngo-portal/static/js/main.5d7d5982.chunk.js.map",
+    "main.css": "/ngo-portal/static/css/main.3c09354f.chunk.css",
+    "main.js": "/ngo-portal/static/js/main.2e59da76.chunk.js",
+    "main.js.map": "/ngo-portal/static/js/main.2e59da76.chunk.js.map",
     "runtime-main.js": "/ngo-portal/static/js/runtime-main.d3ed815b.js",
     "runtime-main.js.map": "/ngo-portal/static/js/runtime-main.d3ed815b.js.map",
     "static/css/2.802837ff.chunk.css": "/ngo-portal/static/css/2.802837ff.chunk.css",
-    "static/js/2.486e8f54.chunk.js": "/ngo-portal/static/js/2.486e8f54.chunk.js",
-    "static/js/2.486e8f54.chunk.js.map": "/ngo-portal/static/js/2.486e8f54.chunk.js.map",
+    "static/js/2.85636b68.chunk.js": "/ngo-portal/static/js/2.85636b68.chunk.js",
+    "static/js/2.85636b68.chunk.js.map": "/ngo-portal/static/js/2.85636b68.chunk.js.map",
     "index.html": "/ngo-portal/index.html",
-    "precache-manifest.dc6b741bcb9bc980d788e0b36698399a.js": "/ngo-portal/precache-manifest.dc6b741bcb9bc980d788e0b36698399a.js",
+    "precache-manifest.2b874e1070ec9773d7d976b90824e072.js": "/ngo-portal/precache-manifest.2b874e1070ec9773d7d976b90824e072.js",
     "service-worker.js": "/ngo-portal/service-worker.js",
     "static/css/2.802837ff.chunk.css.map": "/ngo-portal/static/css/2.802837ff.chunk.css.map",
-    "static/css/main.b53c2247.chunk.css.map": "/ngo-portal/static/css/main.b53c2247.chunk.css.map",
+    "static/css/main.3c09354f.chunk.css.map": "/ngo-portal/static/css/main.3c09354f.chunk.css.map",
     "static/media/TeamContent.module.css": "/ngo-portal/static/media/ID102.b4562c8c.jpg",
     "static/media/Header.module.css": "/ngo-portal/static/media/header-theme-1.980f5731.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d3ed815b.js",
     "static/css/2.802837ff.chunk.css",
-    "static/js/2.486e8f54.chunk.js",
-    "static/css/main.b53c2247.chunk.css",
-    "static/js/main.5d7d5982.chunk.js"
+    "static/js/2.85636b68.chunk.js",
+    "static/css/main.3c09354f.chunk.css",
+    "static/js/main.2e59da76.chunk.js"
   ]
 }
