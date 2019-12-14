@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ngo-portal/static/css/main.3c09354f.chunk.css",
-    "main.js": "/ngo-portal/static/js/main.2e59da76.chunk.js",
-    "main.js.map": "/ngo-portal/static/js/main.2e59da76.chunk.js.map",
+    "main.js": "/ngo-portal/static/js/main.6acc1e6f.chunk.js",
+    "main.js.map": "/ngo-portal/static/js/main.6acc1e6f.chunk.js.map",
     "runtime-main.js": "/ngo-portal/static/js/runtime-main.d3ed815b.js",
     "runtime-main.js.map": "/ngo-portal/static/js/runtime-main.d3ed815b.js.map",
     "static/css/2.802837ff.chunk.css": "/ngo-portal/static/css/2.802837ff.chunk.css",
     "static/js/2.85636b68.chunk.js": "/ngo-portal/static/js/2.85636b68.chunk.js",
     "static/js/2.85636b68.chunk.js.map": "/ngo-portal/static/js/2.85636b68.chunk.js.map",
     "index.html": "/ngo-portal/index.html",
-    "precache-manifest.2b874e1070ec9773d7d976b90824e072.js": "/ngo-portal/precache-manifest.2b874e1070ec9773d7d976b90824e072.js",
+    "precache-manifest.5c5b515cbe772a70ebe040f09431423d.js": "/ngo-portal/precache-manifest.5c5b515cbe772a70ebe040f09431423d.js",
     "service-worker.js": "/ngo-portal/service-worker.js",
     "static/css/2.802837ff.chunk.css.map": "/ngo-portal/static/css/2.802837ff.chunk.css.map",
     "static/css/main.3c09354f.chunk.css.map": "/ngo-portal/static/css/main.3c09354f.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.802837ff.chunk.css",
     "static/js/2.85636b68.chunk.js",
     "static/css/main.3c09354f.chunk.css",
-    "static/js/main.2e59da76.chunk.js"
+    "static/js/main.6acc1e6f.chunk.js"
   ]
 }

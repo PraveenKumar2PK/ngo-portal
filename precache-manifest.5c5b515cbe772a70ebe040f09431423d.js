@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "758df16c0a8458dbf81dc450215b229b",
+    "revision": "81b6039afe99904e6f1701918f514788",
     "url": "/ngo-portal/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ngo-portal/static/css/2.802837ff.chunk.css"
   },
   {
-    "revision": "70f85e4243dbb9a58015",
+    "revision": "c64b4a2d031b470392d9",
     "url": "/ngo-portal/static/css/main.3c09354f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ngo-portal/static/js/2.85636b68.chunk.js"
   },
   {
-    "revision": "70f85e4243dbb9a58015",
-    "url": "/ngo-portal/static/js/main.2e59da76.chunk.js"
+    "revision": "c64b4a2d031b470392d9",
+    "url": "/ngo-portal/static/js/main.6acc1e6f.chunk.js"
   },
   {
     "revision": "da2f0ec87a54c46da8a6",
