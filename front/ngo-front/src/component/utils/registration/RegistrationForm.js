@@ -1,6 +1,7 @@
 import React from 'react';
-import { Form, Input, Button, Radio, DatePicker } from 'antd';
+import { Form, Input, Button, Radio, DatePicker, Select } from 'antd';
 const { TextArea } = Input;
+const { Option } = Select;
 
 class Registartion extends React.Component {
   handleSubmit = e => {
@@ -128,7 +129,18 @@ class Registartion extends React.Component {
                     message: 'Please input your Blood Group.',
                 },
             ],
-          })(<Input />)}
+          })(
+            <Select>
+              <Option value="0-">O-</Option>
+              <Option value="o+">O+</Option>
+              <Option value="a-">A-</Option>
+              <Option value="a+">A+</Option>
+              <Option value="b-">B-</Option>
+              <Option value="b+">B+</Option>
+              <Option value="ab-">AB-</Option>
+              <Option value="ab+">AB+</Option>
+            </Select>
+          )}
         </Form.Item>
         <Form.Item label="Are you willing to donate blood">
           {getFieldDecorator('donateBlood', {
